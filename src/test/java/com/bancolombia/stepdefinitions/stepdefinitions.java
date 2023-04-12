@@ -1,4 +1,4 @@
-package stepdefinitions;
+package com.bancolombia.stepdefinitions;
 
 import com.bancolombia.task.*;
 import com.bancolombia.userinterfaces.BancolombiaPersonas;
@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 
 public class stepdefinitions {
     @Managed(driver = "firefox", uniqueSession = true)
+    //@Managed(driver = "chrome", uniqueSession = true)
     public WebDriver hisBrowser;
     private final Actor user = Actor.named("Mariana");
     BancolombiaPersonas bancolombiaPersonas;
