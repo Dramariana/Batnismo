@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5ccfcf7-232e-4a23-b6fa-7cb554121ac0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bancolombia/task/buscarArticulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bancolombia/task/buscarArticulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bancolombia/task/irCapitalInteligente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bancolombia/task/irCapitalInteligente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bancolombia/task/verActualidadEconomica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bancolombia/task/verActualidadEconomica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bancolombia/userinterfaces/BancolombiaCapitalInteligente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bancolombia/userinterfaces/BancolombiaCapitalInteligente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bancolombia/userinterfaces/BancolombiaEmpresas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bancolombia/userinterfaces/BancolombiaEmpresas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bancolombia/runners/bancolombiaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bancolombia/runners/bancolombiaRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bancolombia/stepdefinitions/stepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bancolombia/stepdefinitions/stepdefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bancolombia.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bancolombia.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6fccc38df66bc584cebb5f6be71588cdbbb1986d367dff302ac570ce13d88d2b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6fccc38df66bc584cebb5f6be71588cdbbb1986d367dff302ac570ce13d88d2b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6fccc38df66bc584cebb5f6be71588cdbbb1986d367dff302ac570ce13d88d2b.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6fccc38df66bc584cebb5f6be71588cdbbb1986d367dff302ac570ce13d88d2b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6fccc38df66bc584cebb5f6be71588cdbbb1986d367dff302ac570ce13d88d2b_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6fccc38df66bc584cebb5f6be71588cdbbb1986d367dff302ac570ce13d88d2b_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6fccc38df66bc584cebb5f6be71588cdbbb1986d367dff302ac570ce13d88d2b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6fccc38df66bc584cebb5f6be71588cdbbb1986d367dff302ac570ce13d88d2b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-firefox.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-firefox.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +138,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bancolombia/task/verActualidadEconomica.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
+          <line>20</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bancolombia/task/verActualidadEconomica.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/bancolombia/task/buscarArticulo.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

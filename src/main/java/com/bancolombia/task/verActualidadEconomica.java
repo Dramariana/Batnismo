@@ -17,11 +17,7 @@ public class verActualidadEconomica implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Switch.toDefaultContext());
         MENU.waitingForNoMoreThan(Duration.ofSeconds(10)).isVisibleFor(actor);
-        //actor.attemptsTo(Click.on(ACTUALIDAD_ECONOMICA));
-//        actor.attemptsTo(Click.on(By.xpath("//li[@class='dropdown mega-dropdown item-dark-blue'][@xpath='1']")));
-        actor.attemptsTo(Click.on(By.xpath("//body/div[@id='main-content']/div[1]/div[1]/div[1]/nav[1]/div[1]/div[2]/ul[1]/li[2]/a[1]")));
 
-       // actor.attemptsTo(Click.on(ACTUALIDAD_ECONOMICA));
         CAPITAL_INTELIGENTE_INFO.waitingForNoMoreThan(Duration.ofSeconds(10)).isVisibleFor(actor);
     }
 

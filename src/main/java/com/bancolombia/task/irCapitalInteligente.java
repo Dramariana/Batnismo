@@ -21,7 +21,6 @@ public class irCapitalInteligente implements Task {
         actor.attemptsTo(Switch.toDefaultContext());
         MENU_CORPORATIVOS.waitingForNoMoreThan(Duration.ofSeconds(10)).isVisibleFor(actor);
         actor.attemptsTo(Click.on(CAPITAL_INTELIGENTE));
-        //actor.attemptsTo(Click.on(By.xpath("//a[@href='/empresas/'"+opcion+"']'")));
 
 
     }

@@ -1,6 +1,7 @@
 package com.bancolombia.stepdefinitions;
 
 import com.bancolombia.task.*;
+import com.bancolombia.userinterfaces.BancolombiaCapitalInteligente;
 import com.bancolombia.userinterfaces.BancolombiaPersonas;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -21,6 +22,7 @@ public class stepdefinitions {
     public WebDriver hisBrowser;
     private final Actor user = Actor.named("Mariana");
     BancolombiaPersonas bancolombiaPersonas;
+    BancolombiaCapitalInteligente bancolombiaCapitalInteligente;
 
 
     @Before
@@ -66,5 +68,8 @@ public class stepdefinitions {
     }
 
 
-
+    @Given("ingresa a la pagina web de actualidad economica de bancolombia personas")
+    public void ingresaALaPaginaWebDeActualidadEconomicaDeBancolombiaPersonas() {
+        user.wasAbleTo(Open.browserOn().the(bancolombiaCapitalInteligente));
+    }
 }
